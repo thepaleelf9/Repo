@@ -1,0 +1,29 @@
+body {
+    background-color:antiquewhite;
+    font-family: Arial;
+}
+
+img {
+   border-style: outset; 
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: burlywood;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+  }
+  .navbar a {
+    float: center;
+    display: center;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    font-family: Arial;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background-color: #f5e8dd;
+    color: white;
+  }
